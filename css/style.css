@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Pacifico&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #a7ff83;
+}
+/* Navbar */
+nav {
+  display: flex;
+  background-color: #17b978;
+  color: #f0e3ca;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+  border-radius: 0 0 20px 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  width: 50%;
+  justify-content: space-between;
+  font-family: "Comfortaa", cursive;
+  font-size: 0.9em;
+  padding-top: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #f0e3ca;
+}
+nav ul li a:hover {
+  color: #a7ff83;
+}
+nav .welcome {
+  font-family: "Pacifico", cursive;
+  letter-spacing: 0.5px;
+  margin: auto;
+  color: #f0e3ca;
+}
+/* About Me */
+#about-me {
+  width: 50%;
+  color: #f0e3ca;
+  margin: auto;
+  margin-top: 10px;
+  background-color: #17b978;
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+#about-me img {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin: auto;
+  padding: 10px;
+  align-items: center;
+}
+#about-me h1 {
+  font-family: "Pacifico", cursive;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 10px;
+}
+#about-me p.about {
+  font-family: "Comfortaa", cursive;
+  color: #f0e3ca;
+  margin: auto;
+  text-align: justify;
+  padding: 20px;
+}
+#about-me p.contact {
+  font-family: "Comfortaa", cursive;
+  color: #f0e3ca;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+}
+#about-me p.contact span {
+  color: #a7ff83;
+}
+/* Skills */
+#skills {
+  width: 50%;
+  color: #f0e3ca;
+  margin: auto;
+  margin-top: 10px;
+  background-color: #17b978;
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+#skills ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  font-family: "Comfortaa", cursive;
+  padding: 20px;
+  margin: auto;
+}
+#skills h1 {
+  font-family: "Pacifico", cursive;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 10px;
+}
+#skills hr {
+  height: 12px;
+  border: 0;
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.3);
+}
+/* experiences */
+#experiences {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  width: 50%;
+  color: #f0e3ca;
+  margin: auto;
+  margin-top: 10px;
+  background-color: #17b978;
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+#experiences h1 {
+  font-family: "Pacifico", cursive;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 10px;
+}
+#experiences hr {
+  height: 12px;
+  border: 0;
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.3);
+}
+#experiences .p1 {
+  font-family: "Comfortaa", cursive;
+  color: #f0e3ca;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+#experiences .p2 {
+  font-family: "Comfortaa", cursive;
+  color: #f0e3ca;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+#experiences .p3 {
+  font-family: "Comfortaa", cursive;
+  color: #f0e3ca;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+#experiences p strong {
+  font-size: 1.2em;
+  font-style: italic;
+}
+footer {
+  display: flex;
+  background-color: #17b978;
+  color: #f0e3ca;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+  margin-top: 10px;
+  border-radius: 20px 20px 0px 0px;
+}
+footer p {
+  font-family: "Comfortaa", cursive;
+  color: #f0e3ca;
+  margin: auto;
+  text-align: center;
+}
